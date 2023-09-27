@@ -1,6 +1,7 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { useState } from 'react';
 
+import { useState } from 'react';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 import './App.css';
 
 import Meal from './components/Meal';
@@ -16,13 +17,13 @@ function App() {
   
   
   return (
-    <>
+    <div>
      <Search/>
     {favmeals.length >0  && <Favorite/>}
     <Meal/>
     {showModal && <Modal/>}
 
-    </>
+    </div>
   );
 }
 
