@@ -1,7 +1,8 @@
 
 import { useState } from 'react';
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+
+import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 
 import Meal from './components/Meal';
