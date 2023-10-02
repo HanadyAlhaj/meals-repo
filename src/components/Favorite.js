@@ -14,11 +14,10 @@ export default function Favorite(){
             return (
                 <div key={me.idMeal} className="d-flex flex-column align-items-center mb-2">
              
-<<<<<<< HEAD
+
                  <p>MEAL </p>
-=======
                  <p>MEAL my changes</p>
->>>>>>> a00ff7ae10fc11f8a6c0d6ff06c36017bc0f40b5
+
                  <img src={me.strMealThumb} alt="meal im" className="img-fluid fav-img rounded-circle  "/>
                
                  <button className="border-transparent border-0 bg-transparent text-white remove-btn" onClick={()=> removeMeal(me.idMeal)}>remove</button> 
